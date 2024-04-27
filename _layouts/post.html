@@ -2,7 +2,13 @@
 layout: "wrapper"
 author: "Julio"
 ---
-
+{% if page.title == "New Title" %}
+    This is the first post
+{% else if page.title = "My second post" %}
+    This is the second post
+{% else %}
+    Epa alex post
+{% endif %}
 <h2>{{ page.title }}</h2>
 <h3>{{ layout.author }}</h3>
 <hr>
