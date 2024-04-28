@@ -8,4 +8,18 @@
     {% for person in site.data.people %}
       {{ person.name }} {{ person.lastname }}
     {% endfor%}
+
+    {% for file in site.static_files %}
+      <!-- {{ file.path }} 
+      {{ file.name }} 
+      {{ file.basename }} 
+      {{ file.extname }}  -->
+      
+      {% if file.image %}
+        <img src="{{ file.path }}" alt="{{ file.name }}">
+      {% endif%}
+
+      <a href="{{ file.path }}">{{ file.name }}</a>
+      
+    {% endfor%}
 </ul>
