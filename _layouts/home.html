@@ -9,14 +9,15 @@ layout: default
   
   <div class="container">
     <div id="home">
-      <h2>{{ page.subtitle }}</h2>
-      {{ content }}
-      <!-- <div style="text-align: center;">
-        <a href="../assets/CV_Julio_Gonzalez_ES.pdf">Ver CV</a>
-      </div> -->
+      <h1>{{ page.subtitle }}</h1>
+      <div id="home_content">
+        {{ content }}
+      </div>
     </div>
     <img src="../assets/img/julio_fondo_blanco.jpg" alt="" style="width: 35%; height: 35%" id="foto">
   </div>
+
+  {% include stack.html %}
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts 2" }}</h2>

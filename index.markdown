@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-list_title: Posts
+list_title: Proyectos
 subtitle: Desarrollador Backend
 ---
 

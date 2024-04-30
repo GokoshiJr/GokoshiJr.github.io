@@ -1,3 +1,26 @@
+#node-text, #python-text {
+    width: 70%;
+}
+
+.stack-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.text-start {
+text-align: left !important;
+}
+
+.text-end {
+text-align: right !important;
+}
+
+.text-center {
+text-align: center !important;
+}
+
 #principal-header {
     background-color: lightblue;
 }
@@ -23,6 +46,31 @@
     }
     #home {
         width: 100%;
+    }
+    .stack-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    #node-text {
+        order: 1;
+        width: 90%;
+        
+    }
+    #node-image {
+        order: 0;
+    }
+    #python-text {
+        width: 90%;
+    }
+    #home_content {
+        padding: 20px;
+    }
+    h1 {
+        text-align: center;
     }
 }
 
