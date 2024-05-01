@@ -1,4 +1,7 @@
 {
+    "title": "Habilidades Técnicas",
+    "python_title": "Python, mi solución favorita",
     "python_text": "Salvo que los requisitos sugieran que no es la mejor opción, para nuevos proyectos emplearé python, por su versatilidad en muchas áreas y su fácil manejo de paquetes, tiene una experiencia de desarrollo agradable.",
-    "nodejs_text": "Para proyectos más pequeños que se centren en la interacción o en intercambio de datos, NodeJs hace fácil escribir y desplegar código que haga muchas cosas de forma concisa. Podemos partir de un prototipo iterandolo agregando funcionalidades."
+    "nodejs_text": "Para proyectos más pequeños que se centren en la interacción o en intercambio de datos, NodeJs hace fácil escribir y desplegar código que haga muchas cosas de forma concisa. Podemos partir de un prototipo iterandolo agregando funcionalidades.",
+    "springboot_text": "Por su enfoque modular y función de inyección de dependencias, Spring Boot es una excelente alternativa para la creación de aplicaciones modulares robustas y altamente escalables que constan de componentes poco acoplados que son ideales para microservicios."
 }

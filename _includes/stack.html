@@ -1,18 +1,18 @@
-<div style="margin-top: 20px;">
-    <h2 class="text-center">
-        Habilidades Técnicas 
-    </h2>
-    <div class="stack-container" style="margin-top: 30px;">
+<div class="mt-3">
+    <h2 class="text-center">{{ site.data.stack.title }}</h2>
+    
+    <div class="stack-container mt-4">
         <div style="width: 30%;">
             <img src="./../assets/img/python-logo.png" alt="">
         </div>
-        <div id="python-text" style="text-align: justify;">
-            <h3 style="font-weight: bold;">Python, mi solución favorita</h3>
+        <div class="stack-text-right">
+            <h3 style="font-weight: bold;">{{ site.data.stack.python_title }}</h3>
             <p>{{ site.data.stack.python_text }}</p>
         </div>
     </div>
-    <div class="stack-container" style="margin-top: 20px;">
-        <div id="node-text" style="text-align: justify;">
+
+    <div class="stack-container mt-3">
+        <div class="stack-text-left">
             <h3 style="font-weight: bold;">NodeJs, para prototipos backend rápidos</h3>
             <p>{{ site.data.stack.nodejs_text }}</p>
         </div>
@@ -20,13 +20,14 @@
             <img src="./../assets/img/nodejs-1.svg" alt=""style="height: 170px; width: 170px;">
         </div>
     </div>
-    <div class="stack-container" style="margin-top: 30px;">
-        <div style="width: 30%;">
+
+    <div class="stack-container mt-3">
+        <div id="springboot-image">
             <img src="./../assets/img/springboot2.png" alt="">
         </div>
-        <div id="python-text" style="text-align: justify;">
-            <h3 style="font-weight: bold;">Python, mi solución favorita</h3>
-            <p>{{ site.data.stack.python_text }}</p>
+        <div class="stack-text-right">
+            <h3 style="font-weight: bold;">Spring Boot, un todo terreno</h3>
+            <p>{{ site.data.stack.springboot_text }}</p>
         </div>
     </div>
 </div>
