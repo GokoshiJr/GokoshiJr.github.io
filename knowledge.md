@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: knowledge
 title: Formación
 permalink: /formacion/
 ---

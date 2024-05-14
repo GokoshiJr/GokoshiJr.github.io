@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Análisis de Datos con Python",
+        "academy": "IBM",
+        "date": "Julio 2023",
+        "link": ""
+    },
+    {
+        "title": "Python 101 para Ciencia de Datos",
+        "academy": "IBM",
+        "date": "Junio 2023",
+        "link": ""
+    },
+    {
+        "title": "Grado de Ingeniería de Computación",
+        "academy": "Universidad José Antonio Páez",
+        "date": "Septiembre 2018 a Noviembre 2022"
+    },
+    {
+        "title": "Manipulación y Transformación de Datos con Pandas y Numpy",
+        "academy": "Platzi",
+        "date": "Junio 2022",
+        "link": ""
+    },
+    {
+        "title": "MongoDB Basics",
+        "academy": "Platzi",
+        "date": "Marzo 2022",
+        "link": ""
+    },
+    {
+        "title": "Curso Profesinal de Python",
+        "academy": "Platzi",
+        "date": "Marzo 2022",
+        "link": ""
+    },
+    {
+        "title": "Curso Intermedio de Python: Comprenhensions, Lambdas y Manejo de Errores",
+        "academy": "Platzi",
+        "date": "Diciembre 2021",
+        "link": ""
+    },
+    {
+        "title": "Curso Básico de Python",
+        "academy": "Platzi",
+        "date": "Diciembre 2021",
+        "link": ""
+    },
+    {
+        "title": "Curso de Programación Web",
+        "academy": "AR Sistemas",
+        "date": "Febrero 2020"
+    },
+    {
+        "title": "Curso de Programación Básica",
+        "academy": "AR Sistemas",
+        "date": "Diciembre 2019"
+    }
+]

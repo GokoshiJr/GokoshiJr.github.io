@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <div>
+    {%- for course in site.data.courses -%}
+        <div style="margin-top: 30px;">
+            <h3><b>{{ course.title }}</b></h3>
+            <p>
+                {{ course.academy }} - {{ course.date }}
+            </p>
+            {%- if course.description -%}
+                <p>{{ course.description }}</p>
+            {%- endif-%}
+            {%- if course.link -%}
+                <a href="{{ course.link }}">Ver Certificado</a>
+            {%- endif-%}
+        </div>
+    {%- endfor -%}
+  </div>
+</article>
