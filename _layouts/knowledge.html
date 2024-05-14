@@ -12,11 +12,9 @@ layout: default
 
   <div>
     {%- for course in site.data.courses -%}
-        <div style="margin-top: 30px;">
+        <div style="margin-top: 30px; padding: 5%;" class="card">
             <h3><b>{{ course.title }}</b></h3>
-            <p>
-                {{ course.academy }} - {{ course.date }}
-            </p>
+            <p>{{ course.academy }} - {{ course.date }}</p>
             {%- if course.description -%}
                 <p>{{ course.description }}</p>
             {%- endif-%}

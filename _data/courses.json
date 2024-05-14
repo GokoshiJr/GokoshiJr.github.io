@@ -3,13 +3,13 @@
         "title": "Análisis de Datos con Python",
         "academy": "IBM",
         "date": "Julio 2023",
-        "link": ""
+        "link": "https://courses.cognitiveclass.ai/certificates/f28e1713b5c04db8804d87d2f8d38532"
     },
     {
         "title": "Python 101 para Ciencia de Datos",
         "academy": "IBM",
         "date": "Junio 2023",
-        "link": ""
+        "link": "https://courses.cognitiveclass.ai/certificates/cff044fdc9b2452dbf1774206573497d"
     },
     {
         "title": "Grado de Ingeniería de Computación",
@@ -20,31 +20,37 @@
         "title": "Manipulación y Transformación de Datos con Pandas y Numpy",
         "academy": "Platzi",
         "date": "Junio 2022",
-        "link": ""
+        "link": "https://platzi.com/p/julioagonzalez18501/curso/2912-pandas-numpy/diploma/detalle/"
+    },
+    {
+        "title": "Introducción al Machine Learning por MindsDB",
+        "academy": "Platzi",
+        "date": "Marzo 2022",
+        "link": "https://platzi.com/p/julioagonzalez18501/curso/2459-machine-learning/diploma/detalle/"
     },
     {
         "title": "MongoDB Basics",
         "academy": "Platzi",
         "date": "Marzo 2022",
-        "link": ""
+        "link": "https://platzi.com/p/julioagonzalez18501/curso/1533-mongodb-basico/diploma/detalle/"
     },
     {
         "title": "Curso Profesinal de Python",
         "academy": "Platzi",
         "date": "Marzo 2022",
-        "link": ""
+        "link": "https://platzi.com/p/julioagonzalez18501/curso/2397-python-profesional/diploma/detalle/"
     },
     {
         "title": "Curso Intermedio de Python: Comprenhensions, Lambdas y Manejo de Errores",
         "academy": "Platzi",
         "date": "Diciembre 2021",
-        "link": ""
+        "link": "https://platzi.com/p/julioagonzalez18501/curso/2255-python-intermedio/diploma/detalle/"
     },
     {
         "title": "Curso Básico de Python",
         "academy": "Platzi",
         "date": "Diciembre 2021",
-        "link": ""
+        "link": "https://platzi.com/p/julioagonzalez18501/curso/1937-python-basico/diploma/detalle/"
     },
     {
         "title": "Curso de Programación Web",
